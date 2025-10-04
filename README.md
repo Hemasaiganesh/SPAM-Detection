@@ -28,7 +28,8 @@ Clone this repository:
 git clone https://github.com/your-username/SPAM-Detection.git
 cd SPAM-Detection
 
-V# 📧 Spam Detection using Machine Learning
+
+## 📧 Spam Detection using Machine Learning
 
 This project implements a **Spam Message Classifier** that predicts whether a message is **Spam** or **Ham (Not Spam)** using NLP techniques and various Machine Learning algorithms.
 
