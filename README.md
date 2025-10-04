@@ -22,12 +22,6 @@ The project uses the **SMS Spam Collection Dataset** (`spam.csv`), which contain
 - **Spam messages:** 747  
 - Total: **5572 messages**
 ---
-## ⚙️ Installation
-Clone this repository:
-```bash
-git clone https://github.com/your-username/SPAM-Detection.git
-cd SPAM-Detection
-
 
 ## 📧 Spam Detection using Machine Learning
 
@@ -51,6 +45,7 @@ This project implements a **Spam Message Classifier** that predicts whether a me
 - Model saved using **Joblib** for future predictions
 
 ---
+
 
 
 
@@ -127,3 +122,10 @@ Pull requests are welcome! For major changes, open an issue first to discuss wha
 Dataset: [UCI SMS Spam Collection Dataset](https://archive.ics.uci.edu/dataset/228/sms+spam+collection)
 ---
 👉 Do you want me to also generate a **`requirements.txt`** file for your repo so that
+
+## ⚙️ Installation
+Clone this repository:
+```bash
+git clone https://github.com/your-username/SPAM-Detection.git
+cd SPAM-Detection
+
