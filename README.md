@@ -98,3 +98,6 @@ Clone this repository:
 git clone https://github.com/your-username/SPAM-Detection.git
 cd SPAM-Detection
 
+
+## Authors
+- U Hema Sai Ganesh (VIT-AP University)
