@@ -57,37 +57,6 @@ The project uses the **SMS Spam Collection Dataset** (`spam.csv`), which contain
 
 ---
 
-## ⚙️ Installation
-
-Clone this repository:
-
-```bash
-git clone https://github.com/your-username/SPAM-Detection.git
-cd SPAM-Detection
-
-🧑‍💻 Usage
-Run the Jupyter Notebook
-jupyter notebook
-
-
-Open spam_detection.ipynb and run all cells.
-Predict New Messages
-You can use the trained model best.pkl to predict:
-import joblib
-from sklearn.feature_extraction.text import TfidfVectorizer
-# Load model
-best = joblib.load('best.pkl')
-vectorizer = joblib.load('vectorizer.pkl')  # Save & load TF-IDF vectorizer too
-# Example predictions
-texts = [
-    "Free entry in a contest to win cash prizes",
-    "Hey, are we still meeting for lunch?",
-    "WINNER!! You just won a free trip to Bahamas. Send details."
-]
-features = vectorizer.transform(texts)
-preds = best.predict(features)
-for text, label in zip(texts, preds):
-    print(f"{text} -> {'SPAM' if label==1 else 'HAM'}")
 
 📊 Results
 | Classifier                | Accuracy  |
